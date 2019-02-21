@@ -1,5 +1,5 @@
 class Damage {
-  /***
+  /**
    * constructor
    * @param {Number} attack - attack character
    * @param {Number} cells - attack character
@@ -10,7 +10,7 @@ class Damage {
     this._attack = attack;
   }
 
-  /***
+  /**
    * setter for stoned field
    * @param {Boolean} param - switch stoned
    */
@@ -19,7 +19,7 @@ class Damage {
     this._stoned = param;
   }
 
-  /***
+  /**
    * getter for stoned field
    * @returns {*|boolean}
    */
@@ -27,7 +27,7 @@ class Damage {
     return this._stoned;
   }
 
-  /***
+  /**
    * setter for attack field
    * @param {Boolean} param - switch stoned
    */
@@ -38,7 +38,7 @@ class Damage {
     }
   }
 
-  /***
+  /**
    * getter for attack field
    * @returns {number}
    */

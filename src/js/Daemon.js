@@ -1,7 +1,7 @@
 import Damage from './Damage';
 
 class Daemon extends Damage {
-  /***
+  /**
    * constructor
    * @param {Object} obj - attack, cells, name, level, defence
    */
